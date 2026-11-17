@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets
+.streamlit/secrets.toml
+.env
+.env.*
+*.pem
+*.key
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+/auth
+/auth-wal
+/auth-shm
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
